@@ -126,7 +126,7 @@ public class    CalcActivity extends ActionBarActivity {
                 try {
                     result = x / y;
                 }catch(ArithmeticException ae) {
-                    return "ERROR Divide";
+                    return "ERROR";
                 }
                 break;
             default:
