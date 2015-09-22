@@ -5,7 +5,6 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.shauvik.calc"
         minSdkVersion 10
         targetSdkVersion 21
         versionCode 1
@@ -35,10 +34,3 @@ dependencies {
     androidTestCompile 'com.android.support.test.espresso:espresso-core:2.1'
 }
 
-apply plugin: 'checkdroid'
-checkdroid{
-    email = 'vhc1992@gmail.com'
-    apiKey = '9ae4a2dec13ec7f6649f966162333039'
-    server = 'localhost:8080'
-    debug = 'true'
-}
